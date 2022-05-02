@@ -8,7 +8,7 @@ class Calculator {
   multiply = (a, b) => {
     return a * b;
   };
-  devide = (a, b) => {
+  divide = (a, b) => {
     return a / b;
   };
 }
