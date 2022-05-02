@@ -13,7 +13,7 @@ class Calculator {
       return '0으로 값을 나눌 수 없습니다.'
     }
     return a / b;
-  } ;
+  };
 }
 
 export default Calculator;
