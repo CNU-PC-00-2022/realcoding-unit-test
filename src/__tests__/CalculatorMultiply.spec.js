@@ -1,7 +1,7 @@
 import Calculator from "../js/calculator/Calculator";
 
 const calc = new Calculator()
-
+//test
 describe("사직연산 곱셈 테스트.", () => {
 
   test("8과 2를 곱하면 16이다.", () => {
