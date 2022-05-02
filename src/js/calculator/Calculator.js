@@ -1,6 +1,6 @@
 export  class DivideZeroError extends Error {
   constructor() {
-    super('0으로는 나눌 수 없습니다.');
+    super('not zero');
     this.name = 'Divide Zero Error';
   }
 }
