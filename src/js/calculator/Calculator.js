@@ -2,17 +2,14 @@ class Calculator {
   plus = (a, b) => {
     return a + b;
   };
-  isNegative = (a) => {
-    return a < 0;
+  minus = (a, b) => {
+    return a - b;
   };
-  getDate = () => {
-    return new Date();
+  multiply = (a, b) => {
+    return a * b;
   };
-  abs = (a) => {
-    return Math.abs(a);
-  };
-  customCalculation = (callback, ...args) => {
-    callback(...args);
+  divide = (a, b) => {
+    return a / b;
   };
 }
 
