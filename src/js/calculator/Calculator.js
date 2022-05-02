@@ -1,3 +1,9 @@
+export  class DivideZeroError extends Error {
+  constructor() {
+    super('not zero');
+    this.name = 'Divide Zero Error';
+  }
+}
 class Calculator {
   plus = (a, b) => {
     return a + b;
@@ -9,6 +15,9 @@ class Calculator {
     return a * b;
   };
   divide = (a, b) => {
+    if(b == 0) {
+      throw new DivideZeroError();
+    }
     return a / b;
   };
 }
