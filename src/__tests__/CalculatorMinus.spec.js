@@ -5,9 +5,9 @@ describe("사직연산 뺄셈 테스트.", () => {
       const calculator = new Calculator();
     expect(calculator.minus(7,4)).toEqual(3);
   });
-  test("11에서 27를 빼면 -14이다.", () => {
+  test("11에서 27를 빼면 -16이다.", () => {
     const calculator = new Calculator();
     //
-  expect(calculator.minus(11,27)).toEqual(-14);
+  expect(calculator.minus(11,27)).toEqual(-16);
 });
 });
