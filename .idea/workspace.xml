@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdf451c3-5b9e-44a9-a41e-c6848b0db618" name="변경" comment="init" />
+    <list default="true" id="fdf451c3-5b9e-44a9-a41e-c6848b0db618" name="변경" comment="init">
+      <change beforePath="$PROJECT_DIR$/src/js/calculator/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/calculator/Calculator.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="team-9-202002523" />
+                    <option name="lastUsedInstant" value="1651575159" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/calculator" />
                     <option name="lastUsedInstant" value="1651479404" />
