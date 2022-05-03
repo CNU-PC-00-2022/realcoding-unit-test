@@ -1,16 +1,16 @@
 import Calculator from "../js/calculator/Calculator";
-
 beforeAll(() => {
-  console.log('곱셈 테스트 시작!')
+  console.log('곱셈테스트 시작!')
 });
 afterAll(() => {
-  console.log('곱셈 테스트 종료!')
+  console.log('곱셈테스트 종료!')
 });
 beforeEach(() => {
-  console.log('곱셈 테스트 전 실행 됨');
+  console.log('곱셈테스트 전 실행 됨');
 });
+
 afterEach(() => {
-  console.log('곱셈 테스트 후 실행 됨');
+  console.log('곱셈테스트 후 실행 됨');
 })
 
 describe("사직연산 곱셈 테스트.", () => {
