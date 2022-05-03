@@ -5,8 +5,8 @@ describe("사칙연산 나눗셈 테스트.", () => {
     const calculator = new Calculator();
     expect(calculator.divide(6, 3)).toEqual(2);
   });
-  // test("6을 0으로 나누면 Error가 발생한다.", () => {
-  //   const calculator = new Calculator();
-  //   expect(calculator.divide(6, 0)).toThrow(DivideZeroError);
-  // });
+  test("6을 0으로 나누면 Error가 발생한다.", () => {
+    const calculator = new Calculator();
+    expect(() => calculator.divide(6, 0)).toThrowError();
+  });
 });
