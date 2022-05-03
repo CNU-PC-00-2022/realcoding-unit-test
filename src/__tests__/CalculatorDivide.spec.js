@@ -9,6 +9,6 @@ describe("사직연산 나눗셈 테스트.", () => {
 describe("사직연산 나눗셈 테스트.", () => {
     test("0으로 나누면 에러가 발생한다.", () => {
         const calcul = new Calculator();
-        expect(() => calcul.divide(9,0)).toThrowError(DivideZeroError);
+        expect(() => calcul.divide(9,0)).toThrowError(new Error('0으로는 나눌 수 없지'));
     });
 });
