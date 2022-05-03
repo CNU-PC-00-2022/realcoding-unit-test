@@ -13,6 +13,7 @@ beforeEach(() => {
 afterEach(() => {
   console.log('나눗셈테스트 후 실행 됨');
 })
+
 describe("사칙연산 나눗셈 테스트.", () => {
   test("6을 3으로 나누면 2이다.", () => {
     const calculator = new Calculator();
