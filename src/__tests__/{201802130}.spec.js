@@ -57,7 +57,7 @@ describe("가상 함수 테스트해보기", () => {
 
     test("abs함수는 Math.abs를 호출한다.", () => {
         const spyfn = jest.spyOn(Math, "abs");
-        calc.customCalculation(spyfn);
+        calc.abs(3);
         expect(spyfn).toHaveBeenCalled();
     });
 })
