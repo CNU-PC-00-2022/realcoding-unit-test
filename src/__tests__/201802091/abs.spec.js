@@ -1,4 +1,4 @@
-import Calculator from "../js/calculator/Calculator";
+import Calculator from "../../js/calculator/Calculator";
 
 beforeEach(() => {
     console.log("각 테스트를 실행하기 전 실행된다.");
@@ -16,9 +16,13 @@ afterAll(() => {
     console.log("모든 테스트가 완료된 후 실행된다.");
 });
 
-describe("사칙연산 뺄셈 테스트.", () => {
-    test("5에서 3을 빼면 2이다.", () => {
+describe("절대값 판단", () => {
+    test("3의 절대값은 3이다.", () => {
         const calculator = new Calculator();
-        expect(calculator.minus(5, 3)).toEqual(2);
+        expect(calculator.abs(3)).toEqual(3);
+    });
+    test("-3의 절대값은 3이다.", () => {
+        const calculator = new Calculator();
+        expect(calculator.abs(-3)).toEqual(3);
     });
 });
