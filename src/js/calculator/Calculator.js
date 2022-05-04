@@ -15,9 +15,6 @@ class Calculator {
   minus = (a, b) => {
     return a - b;
   };
-  multiply = (a, b) => {
-    return a * b;
-  };
   divide = (a, b) => {
     if (b === 0) {
       throw new DivideZeroError();
