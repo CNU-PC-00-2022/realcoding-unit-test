@@ -1,6 +1,6 @@
 import Calculator from "../js/calculator/Calculator";
 
-const calc = new Calculator()
+const calc = new Calculator();
 
 describe("사칙연산 곱셈 테스트.", () => {
 
