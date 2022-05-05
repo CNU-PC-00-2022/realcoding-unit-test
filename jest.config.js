@@ -11,6 +11,7 @@ module.exports = {
   },
   testMatch: [
     "<rootDir>/**/__tests__/*.(js|jsx|ts|tsx)",
-  ],
+    "<rootDir>/**/__tests__/**/*.(js|jsx|ts|tsx)",
+],
   transformIgnorePatterns: ["<rootDir>/node_modules/"],
 };
