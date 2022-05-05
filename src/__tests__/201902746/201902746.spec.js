@@ -1,4 +1,4 @@
-import Calculator from "../../../js/calculator/Calculator";
+import Calculator from "../../js/calculator/Calculator";
 
 const calc = new Calculator();
 
