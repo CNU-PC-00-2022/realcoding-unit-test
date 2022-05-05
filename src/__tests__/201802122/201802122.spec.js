@@ -11,7 +11,7 @@ beforeEach(() => {
 afterEach(() => {
     console.log('각 테스트가 완료된 후 실행된다.');
 });
-//donghun
+
 describe("음수 양수 판단", () => {
     test("isNegative에 7을 넣으면 false를 반환한다.", () => {
         const calculator = new Calculator();
