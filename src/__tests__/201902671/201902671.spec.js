@@ -1,8 +1,8 @@
 import Calculator from "../../js/calculator/Calculator";
 
-const calculator = new Calculator();
-
 describe("음수 양수 판단", () => {
+    const calculator = new Calculator();
+    
     test("isNegative에 7을 넣으면 false를 반환한다.", () => {
         expect(calculator.isNegative(7)).toBeFalsy();
     });
@@ -15,6 +15,8 @@ describe("음수 양수 판단", () => {
 });
 
 describe("Date 클래스 판단하기", () => {
+    const calculator = new Calculator();
+
     test("getDate를 하면 Date객체가 나온다.", () => {
         expect(calculator.getDate()).toBeInstanceOf(Date);
     });
