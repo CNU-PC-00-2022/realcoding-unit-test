@@ -18,6 +18,7 @@ afterAll(() => {
     console.log("전체 테스트가 실행된 후 한번만 동작한다.");
 });
 
+
 describe("음수 양수 판단", () => {
     test("isNegative에 7을 넣으면 false를 반환한다.", () => {
         expect(calc.isNegative(7)).toBeFalsy();
