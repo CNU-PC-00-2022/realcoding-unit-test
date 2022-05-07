@@ -1,6 +1,7 @@
 import Calculator from "../../js/calculator/Calculator";
 
 
+
 describe("음수 양수 판단", () => {
     test("isNegative에 7을 넣으면 false를 반환한다.", () => {
         const calc = new Calculator();
