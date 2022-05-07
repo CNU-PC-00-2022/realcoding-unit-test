@@ -20,7 +20,11 @@ class Calculator {
     if (b == 0) {
       throw new DivideZeroError();
     }
+<<<<<<< HEAD
     return a / b
+=======
+    return a / b;
+>>>>>>> dba9e5d72d5853e4d23461bb30b98598bc218d69
   };
   isNegative = (a) => {
     return a < 0;
