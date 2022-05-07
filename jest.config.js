@@ -10,7 +10,10 @@ module.exports = {
     '\\.(css|less)$': '<rootDir>/__mocks__/fileMock.js',
   },
   testMatch: [
+    "<rootDir>/**/__tests__/*/*.(js|jsx|ts|tsx)",
     "<rootDir>/**/__tests__/*.(js|jsx|ts|tsx)",
+    "<rootDir>/**/__tests__/*/*.(js|jsx|ts|tsx)",
   ],
   transformIgnorePatterns: ["<rootDir>/node_modules/"],
+  verbose: true,
 };
