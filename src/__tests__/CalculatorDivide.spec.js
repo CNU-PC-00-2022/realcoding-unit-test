@@ -1,4 +1,4 @@
-import Calculator from "../js/calculator/Calculator";
+import Calculator, { DivideZeroError } from "../js/calculator/Calculator";
 
 describe("사칙연산 나눗셈 테스트.", () => {
     test("6에서 3을 나누면 2다.", () => {
@@ -16,8 +16,17 @@ describe("사칙연산 나눗셈 테스트.", () => {
         expect(calculator.divide(100, 10)).toEqual(10);
     });
 
-    test("분모가 0이면 나눌 수 없다.", () => {
+    test("0으로는 나눌 수 없지롱", () => {
         const calculator = new Calculator();
-        expect(calculator.divide(10, 0)).toEqual();
+        expect(() => {
+            calculator.divide(100, 0)
+        }).toThrowError(DivideZeroError);
+    });
+
+    test("0으로는 나눌 수 없지롱2", () => {
+        const calculator = new Calculator();
+        expect(() => {
+            calculator.divide(10, 0)
+        }).toThrowError(DivideZeroError);
     });
 });
