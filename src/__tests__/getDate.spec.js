@@ -1,4 +1,4 @@
-import Calculator from "../../js/calculator/Calculator";
+import Calculator from "../js/calculator/Calculator";
 beforeAll(() => {
   console.log('클래스 테스트 시작!')
 });
@@ -15,7 +15,7 @@ afterEach(() => {
 })
 describe("클래스 비교 테스트.", () => {
   
-  test("c1과 c2 클래스는 서로 같다.", () => {
+  test("getDate를 통해 Date 객체가 생성된다.", () => {
     const calculator = new Calculator();
     expect(new calculator.getDate()).toBeInstanceOf(Date);
   });

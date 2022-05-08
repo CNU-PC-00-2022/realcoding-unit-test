@@ -34,6 +34,6 @@ describe("사칙연산 나눗셈 테스트.", () => {
   });
   test("6을 0으로 나누면 Error가 발생한다.", () => {
     const calculator = new Calculator();
-    expect(() => calculator.divide(6, 0)).toThrow(new DivideZeroError());
+    expect(() => calculator.divide(6, 0)).toThrowError(DivideZeroError);
   });
 });
