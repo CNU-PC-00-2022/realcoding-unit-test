@@ -9,7 +9,7 @@ describe("음수 양수 판단", () => {
     expect(calculator.isNegative(-3)).toBeTruthy();
   });
   test("isNegative에 0을 넣으면 true가 아니다.", () => {
-    expect(calculator.isNegative(0)).not.toBe(true);
+    expect(calculator.isNegative(0)).not.toBeTruthy();
   });
 });
 
