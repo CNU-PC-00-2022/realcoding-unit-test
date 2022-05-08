@@ -11,7 +11,7 @@ beforeEach(() => {
 afterEach(() => {
     console.log('각 테스트가 완료된 후 실행된다.');
 });
-//donghun
+
 describe("음수 양수 판단", () => {
     test("isNegative에 7을 넣으면 false를 반환한다.", () => {
         const calculator = new Calculator();
@@ -23,7 +23,7 @@ describe("음수 양수 판단", () => {
     });
         test("isNegative에 0을 넣으면 true가 아니다.", () => {
         const calculator = new Calculator();
-        expect(calculator.isNegative(7)).not
+        expect(calculator.isNegative(0)).not.toBe("true");
     });
 });
 describe("Date 클래스 판단하기", () => {
