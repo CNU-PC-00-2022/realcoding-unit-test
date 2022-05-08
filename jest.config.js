@@ -3,6 +3,7 @@ module.exports = {
   transform: {
     "^.+\\.(js|jsx)?$": "babel-jest",
   },
+  testEnvironment: 'node',
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/$1",
     '\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
@@ -10,7 +11,7 @@ module.exports = {
     '\\.(css|less)$': '<rootDir>/__mocks__/fileMock.js',
   },
   testMatch: [
-    "<rootDir>/**/__tests__/**/*.(js|jsx|ts|tsx)",
+    "<rootDir>/**/__tests__/**/*/.(js|jsx|ts|tsx)",
   ],
   transformIgnorePatterns: ["<rootDir>/node_modules/"],
 };
