@@ -5,8 +5,6 @@ export class DivideZeroError extends Error {
   }
 }
 
-
-
 class Calculator {
   plus = (a, b) => {
     return a + b;
@@ -19,7 +17,7 @@ class Calculator {
   multiply = (a, b) => {
     return a * b;
   };
-  
+
   divide = (a,b) => {
     if(b==0){
       throw new DivideZeroError();
