@@ -1,4 +1,4 @@
-import Calculator from "../js/calculator/Calculator";
+import Calculator from "../../js/calculator/Calculator";
 beforeAll(() => {
     console.log('가상함수 테스트 시작!')
 });
