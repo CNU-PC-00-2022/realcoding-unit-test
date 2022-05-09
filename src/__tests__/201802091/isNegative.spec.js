@@ -27,6 +27,6 @@ describe("음수 양수 판단", () => {
     });
     test("isNegative에 0을 넣으면 true가 아니다", () => {
         const calculator = new Calculator();
-        expect(calculator.isNegative(0)).toBeFalsy();
+        expect(calculator.isNegative(0)).not.toBeTruthy();
     });
 });
