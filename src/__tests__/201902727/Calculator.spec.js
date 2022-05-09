@@ -31,8 +31,36 @@ describe("음수 양수 판단", () => {
   });
 });
 
-describe("Date 클래스 판단하기", () => { test("getDate를 하면 Date객체가 나온다.", () => {
-  const calc = new Calculator();
-  expect(calc.getDate()).toBeInstanceOf(Date)
+describe("Date 클래스 판단하기", () => { 
+  test("getDate를 하면 Date객체가 나온다.", () => {
+    const calc = new Calculator();
+    expect(calc.getDate()).toBeInstanceOf(Date)
+  });
 });
+
+describe("가상 함수 테스트해보기", () => {
+  function foo() {
+    return true;
+  }
+  function func(a, b, c) {
+    return [a, b, c]
+  }
+  test("customCalculation는 전달 된 함수를 호출시킨다.", () => {
+    const mockFn = jest.fn();
+    mockFn.mockImplementation(foo);
+    mockFn();
+    expect(mockFn).toHaveBeenCalled();
+  });
+  test("customCalculation에 함수와 1, 2, 3인자를 전달하면, 전달 된 함수가 인자 1, 2, 3을 받아 호출한다.", () => { 
+    const mockFn = jest.fn();
+    mockFn.mockImplementation(func);
+    mockFn(1, 2, 3);
+    expect(mockFn).toHaveBeenCalledWith(1, 2, 3);
+  });
+  test("abs함수는 Math.abs를 호출한다.", () => {
+    const calculator = new Calculator();
+    const mockAbs = jest.spyOn(Math, "abs");
+    calculator.abs(-1);
+    expect(mockAbs).toHaveBeenCalled()
+  });
 });
