@@ -5,4 +5,4 @@ describe("사직연산 덧셈 테스트.", () => {
     const calculator = new Calculator();
     expect(calculator.plus(3, 5)).toEqual(8);
   });
-});
+}); 
