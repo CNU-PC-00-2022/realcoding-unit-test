@@ -1,10 +1,10 @@
 import Calculator from "../../js/calculator/Calculator";
 beforeAll(() => {
-    console.log('가상함수 테스트 시작!')
+    console.log('가상함수 테스트 시작!');
 });
 
 afterAll(() => {
-    console.log('가상함수 테스트 종료!')
+    console.log('가상함수 테스트 종료!');
 });
 beforeEach(() => {
     console.log('가상함수 테스트 전 실행 됨');
@@ -29,7 +29,7 @@ describe("가상 함수 테스트해보기.", () => {
     test("abs함수는 Math.abs를 호출한다.", () => {
         const calculator = new Calculator();
         const spy = jest.spyOn(Math, "abs");
-        calculator.abs(3); 
+        calculator.abs(3);
         expect(spy).toBeCalledTimes(1);
     });
 });
