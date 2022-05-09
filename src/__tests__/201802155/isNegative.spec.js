@@ -1,17 +1,17 @@
 import Calculator from "../../js/calculator/Calculator";
 beforeAll(() => {
-  console.log('음수테스트 시작!')
+    console.log('클래스 테스트 시작!')
 });
 
 afterAll(() => {
-  console.log('음수테스트 종료!')
+    console.log('클래스 테스트 종료!')
 });
 beforeEach(() => {
-  console.log('음수테스트 전 실행 됨');
+    console.log('클래스 테스트 전 실행 됨');
 });
 
 afterEach(() => {
-  console.log('음수테스트 후 실행 됨');
+    console.log('클래스 테스트 후 실행 됨');
 })
 describe("음수 양수 판단.", () => {
   
@@ -27,5 +27,4 @@ describe("음수 양수 판단.", () => {
     const calculator = new Calculator();
     expect(calculator.isNegative(0)).not.toBeTruthy();
   });
-  
 }); 

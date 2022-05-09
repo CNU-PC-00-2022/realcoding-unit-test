@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60f4e73b-66ea-4423-80c5-5fa705d26b4f" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/201802091/isNegative.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/201802091/isNegative.spec.js" afterDir="false" />
-    </list>
+    <list default="true" id="60f4e73b-66ea-4423-80c5-5fa705d26b4f" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +48,9 @@
       <updated>1651573506802</updated>
       <workItem from="1651573516580" duration="4166000" />
       <workItem from="1652012610547" duration="707000" />
-      <workItem from="1652074096586" duration="33000" />
+      <workItem from="1652074096586" duration="111000" />
+      <workItem from="1652077732588" duration="21000" />
+      <workItem from="1652093035791" duration="2331000" />
     </task>
     <servers />
   </component>
