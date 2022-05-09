@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60f4e73b-66ea-4423-80c5-5fa705d26b4f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__tests__/virtualFunction.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/201802091/virtualFunction.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/201802091/virtualFunction.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/201802155/abs.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/201802155/getDate.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/201802155/isNegative.spec.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +40,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\박광욱\Documents\GitHub\realcoding-unit-test\src\__tests__" />
       <recent name="C:\Users\박광욱\Documents\GitHub\realcoding-unit-test\src\__tests__\201802091" />
+      <recent name="C:\Users\박광욱\Documents\GitHub\realcoding-unit-test\src\__tests__" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
@@ -53,7 +56,7 @@
       <workItem from="1652012610547" duration="707000" />
       <workItem from="1652074096586" duration="111000" />
       <workItem from="1652077732588" duration="21000" />
-      <workItem from="1652093035791" duration="651000" />
+      <workItem from="1652093035791" duration="1268000" />
     </task>
     <servers />
   </component>
