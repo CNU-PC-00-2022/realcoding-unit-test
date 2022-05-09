@@ -19,4 +19,4 @@ describe("클래스 비교 테스트.", () => {
         const calculator = new Calculator();
         expect(new calculator.getDate()).toBeInstanceOf(Date);
     });
-});
+}); 
