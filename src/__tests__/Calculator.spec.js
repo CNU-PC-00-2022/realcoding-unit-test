@@ -1,4 +1,5 @@
 import Calculator from "../js/calculator/Calculator";
+
 beforeAll(() => {
   console.log('덧셈 테스트 시작!')
 });
