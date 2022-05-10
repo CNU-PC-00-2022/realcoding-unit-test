@@ -37,3 +37,39 @@ describe("Date 클래스 판단하기", () => {
         expect(calc.getDate()).toBeInstanceOf(Date)
     });
 });
+
+describe("가상 함수 테스트해보기", () => {
+    
+  test("customCalculation는 전달된 함수를 호출시킨다.", () => {
+    const calc = new Calculator();
+    const mockFn = jest.fn();
+    calc.customCalculation(mockFn);
+    expect(mockFn).toHaveBeenCalled();
+  });
+
+  test("customCalculation에 함수와 1, 2, 3인자를 전달하면, 전달된 함수를 인자가 1, 2, 3을 받아 호출한다.", () => {
+      const calc = new Calculator();
+      const mockFn = jest.fn();
+      calc.customCalculation(mockFn,1,2,3);
+      expect(mockFn).toHaveBeenCalledWith(1,2,3);
+  });
+
+  test("abs함수는 Math.abs를 호출한다.", () => {
+      const calc = new Calculator();
+      const mockFn = jest.spyOn(Math,"abs");
+      calc.customCalculation(calc.abs,-1);
+calcu.abs(-1);
+      expect(mockFn).toHaveBeenCalled();
+  });
+});
+
+describe("절댓값 판단", () => {
+  test("abd에 -1을 넣으면 1을 반환한다.", () => {
+      const calc = new Calculator();
+      expect(calc.abs(-1)).toEqual(1);
+  })
+  test("abd에 3을 넣으면 3을 반환한다.", () => {
+      const calc = new Calculator();
+      expect(calc.abs(3)).toEqual(3);
+  })
+})
