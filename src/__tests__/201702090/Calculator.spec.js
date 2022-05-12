@@ -38,6 +38,8 @@ describe("Date 클래스 판단하기", () => {
     });
 });
 
+// 첫 주차 추가 과제
+
 describe("가상 함수 테스트해보기", () => {
     test("customCalculation는 전달 된 함수를 호출시킨다.", () => {
         const calculator = new Calculator();
@@ -53,6 +55,9 @@ describe("가상 함수 테스트해보기", () => {
         expect(mock).toHaveBeenCalledWith(1, 2, 3);
     });
     test("abs함수는 Math.abs를 호출한다.", () => {
-        // todo
+        const calculator = new Calculator();
+        const mock = jest.spyOn(Math, "abs");
+        calculator.abs(10);
+        expect(mock).toHaveBeenCalled();
     });
 });
