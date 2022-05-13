@@ -37,6 +37,30 @@ describe("Date 클래스 판단하기", () => {
     });
 });
 
+describe("가상 함수 테스트", () => {
+    test("customCalculation는 전달된 함수를 호출시킨다.", () => {
+        const calculator = new Calculator();
+        const callback = jest.fn();
+        calculator.customCalculation(callback);
+
+        expect(callback).toHaveBeenCalled();
+    });
+    test("customCalculation에 함수, 1, 2, 3을 전달하면, 전달된 함수가 1, 2, 3,을 받아 호출된다.", () => {
+        const calculator = new Calculator();
+        const callback = jest.fn();
+        calculator.customCalculation(callback, 1, 2, 3);
+
+        expect(callback).toHaveBeenCalledWith(1, 2, 3);
+    });
+    test("abs함수는 Math.abs를 호출한다.", () => {
+        const calculator = new Calculator();
+        const spyFn = jest.spyOn(Math, "abs");
+        calculator.abs(-202002523);
+
+        expect(spyFn).toHaveBeenCalled();
+    });
+});
+
 afterAll(() => {
     console.log("모든 테스트가 완료된 후 한번만 실행된다.");
 });
