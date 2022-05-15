@@ -9,11 +9,19 @@ class Calculator {
   plus = (a, b) => {
     return a + b;
   };
+<<<<<<< HEAD
  
   minus = (a, b) => {
     return a - b;
   };
   
+=======
+
+  minus = (a, b) => {
+    return a - b;
+  };
+
+>>>>>>> da4856cf9a9fced66f678b3f3ae01b9c2aca557b
   multiply = (a, b) => {
     return a * b;
   };
