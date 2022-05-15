@@ -9,7 +9,11 @@ class Calculator {
   plus = (a, b) => {
     return a + b;
   };
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> dd4c4c0baaaa611615088deb772c9fe8b3d4dd41
   minus = (a, b) => {
     return a - b;
   };
@@ -18,6 +22,7 @@ class Calculator {
     return a * b;
   };
 
+<<<<<<< HEAD
   divide = (a, b) => {
     if (b == 0) {
       throw new DivideZeroError();
@@ -26,6 +31,16 @@ class Calculator {
     }
   };
 
+=======
+  divide = (a,b) => {
+    if(b==0){
+      throw new DivideZeroError();
+    }else {
+      return a / b;
+    }
+  };
+  
+>>>>>>> dd4c4c0baaaa611615088deb772c9fe8b3d4dd41
   isNegative = (a) => {
     return a < 0;
   };
