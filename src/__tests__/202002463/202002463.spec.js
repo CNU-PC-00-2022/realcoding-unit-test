@@ -4,7 +4,6 @@ const calculator = new Calculator();
 const mockFunction = jest.fn();
 
 describe("음수 양수 판단", () => {
-    
     test("isNegative에 7을 넣으면 false를 반환한다.", () => {
         expect(calculator.isNegative(7)).toBeFalsy();
     });
@@ -16,14 +15,12 @@ describe("음수 양수 판단", () => {
     });
 
 })
+
 describe("Data 클래스 판단하기", () => {
     test("getDate를 하면 Date객체가 나온다.", () => {
         expect(calculator.getDate()).toBeInstanceOf(Date);
-<<<<<<< HEAD
-=======
     })
 })
->>>>>>> dd4c4c0baaaa611615088deb772c9fe8b3d4dd41
 
 beforeAll(() => {
     console.log("모든 테스트를 실행하기 전 한번만 실행된다.");
