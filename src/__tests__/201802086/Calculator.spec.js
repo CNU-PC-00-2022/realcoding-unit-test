@@ -32,3 +32,27 @@ describe("Date 클래스 판단하기.", () => {
     expect(cal.getDate()).toBeInstanceOf(Date);
   });
 });
+
+  
+describe("Vertual Functiom", () =>{
+  test("customCalculation send para.",() =>{
+      const calculator = new Calculator();
+      const mockFunction = jest.fn();
+      calculator.customCalculation(mockFunction);
+      expect(mockFunction).toHaveBeenCalled();
+  });
+
+  test("Send 6,7,8 to customCalculation Then, Receive 6,7,8", () => {
+      const calculator = new Calculator();
+      const mockFunction = jest.fn();
+      calculator.customCalculation(mockFunction, 6, 7, 8);
+      expect(mockFunction).toHaveBeenCalledWith(6, 7, 8);
+  });
+  test("abs call math.abs", () => {
+      const calculator = new Calculator();
+      const mockMathAbs = jest.spyOn(Math, "abs");
+      calculator.abs(7);
+      expect(mockMathAbs).toHaveBeenCalled();
+  });
+
+});
