@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6cecff5e-e493-4982-b428-12cf9f0e1b17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/202002575/202002575.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/202002575/202002575.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realcoding-unit-test/src/__tests__/202002575.spec.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +25,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/__tests__" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hanur\OneDrive\Documents\realcoding-unit-test\src\__tests__" />
+      <recent name="C:\Users\hanur\OneDrive\Documents\realcoding-unit-test\src\__tests__\202002575" />
       <recent name="C:\Users\hanur\OneDrive\Documents\realcoding-unit-test\realcoding-unit-test\src\__tests__" />
     </key>
   </component>
@@ -42,6 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651907760517</updated>
       <workItem from="1651907762113" duration="284000" />
+      <workItem from="1652407417962" duration="154000" />
+      <workItem from="1652432591446" duration="1067000" />
     </task>
     <servers />
   </component>
