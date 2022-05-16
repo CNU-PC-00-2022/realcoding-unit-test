@@ -9,23 +9,27 @@ class Calculator {
   plus = (a, b) => {
     return a + b;
   };
-  
+
   minus = (a, b) => {
     return a - b;
   };
-  
+
+  minus = (a, b) => {
+    return a - b;
+  };
+
   multiply = (a, b) => {
     return a * b;
   };
 
-  divide = (a,b) => {
-    if(b==0){
+  divide = (a, b) => {
+    if (b == 0) {
       throw new DivideZeroError();
-    }else {
+    } else {
       return a / b;
     }
   };
-  
+
   isNegative = (a) => {
     return a < 0;
   };
